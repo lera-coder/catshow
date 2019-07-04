@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <header>
+
+      <!-- хедер -->
+
+        <div class="header-class">
+
+                <!-- название программы-логотип-ссылка на домашнюю страницу -->
+
+            <a href ="index.php"><h1 class = "logo-style">ToSearchStarCats</h1></a>
+            <form   method="post">
+              
+              <!-- инструкция к использованию -->
+
+              <h3 class = "instruct-class">  Choose data you need and then click on the button </h3>
+        
+              <!-- поле для выбора -->
+              <select name="data" id="mySelect" >
+                  <option>COLOR DATA</option>
+                  <option>BIRTHSDAY_YEAR DATA</option>
+                <option>BREED DATA</option>
+                <option>EVENT PLACE DATA</option>
+                <option>EVENTS DATA</option>
+                <option>CATS DATA</option>
+                <option>RESULT OF CAT SHOW DATA</option>
+            
+              </select>
+
+              <!-- две кнопки для выбора действия -->
+
+            <div class = "btn-group-choose">
+            <button href="" formaction="actiontocreate.php" type="submit" class="tocreate_new_element">Create new element</button>
+            <button href="" formaction="action.php" type="submit" class="tocreate_new_element">To see information</button>
+          </div>
+        </form>
+        </div>
+    </header>
+  </head>
+</html>
+

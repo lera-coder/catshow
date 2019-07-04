@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+ }
+
+ .header-class{
+    background: #be7245;
+    height: 150px;
+    width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+   
+ }
+ 
+ .logo-style{
+    margin: 0px;
+    padding-top: 45px;
+    padding-left: 20px;
+    float: left;
+    font-size: 34pt;
+    font-weight: 400;
+    color: white;
+ }
+ button.tocreate_new_element {
+    width: 300px;
+    display: inline-block;
+    color: white;
+    background: #be7245;
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    margin: 10px 150px 10px 0px; 
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    font-size: 12pt;
+    font-weight: 400;
+    float: right;
+  } 
+  button.tocreate_new_element:hover { background: rgba(255,255,255,.2); }
+  button.tocreate_new_element:active { background: white; }
+
+
+ 
+  .formtocreate{
+      width: 50%;
+      float: left;
+  }
+
+  .firstselect{
+      margin-top: 30px;
+      margin-left: 40%;
+      margin-right: 40%;
+  }
+
+  select{
+      margin-left: 36%;
+      width: 300px;
+      height: 30px;
+  }
+  #mySelect{
+      position: absolute;
+      display: flex;
+      margin-top: 80px;
+      padding-left: 100px;
+      font-size: 13pt;
+
+  }
+    .divider{
+        position: relative;
+        margin: 50px 20px 20px 20px;    
+    }
+
+  .instruct-class{
+      float: left;
+      color: white;
+        margin: 0;
+        padding-left: 130px;
+        padding-top:30px;
+        font-weight: 300;
+  }
+
+  .btn-group-choose{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+
+  }
+
+  .table-beauty {
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #ECE9E0;
+    color: #656665;
+    border: 16px solid #ECE9E0;
+    border-radius: 20px;
+    }
+    .table-beauty > th {
+    font-size: 18px;
+    padding: 10px;
+    }
+    .table-beauty > td {
+    background: #F5D7BF;
+    padding: 10px;
+    }
+    
+ 
